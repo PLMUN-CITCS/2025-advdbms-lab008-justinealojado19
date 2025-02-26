@@ -1,3 +1,5 @@
+CREATE DATABASE `BookstoreDB`;
+
 USE `BookstoreDB`;
 
 -- Books Table [cite: 11]
@@ -46,4 +48,3 @@ CREATE TABLE `OrderDetails` (
    FOREIGN KEY (`OrderID`) REFERENCES `Orders`(`OrderID`),
    FOREIGN KEY (`ISBN`) REFERENCES `Books`(`ISBN`)
 );
-
