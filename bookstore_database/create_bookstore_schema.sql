@@ -46,3 +46,4 @@ CREATE TABLE `OrderDetails` (
    FOREIGN KEY (`OrderID`) REFERENCES `Orders`(`OrderID`),
    FOREIGN KEY (`ISBN`) REFERENCES `Books`(`ISBN`)
 );
+
